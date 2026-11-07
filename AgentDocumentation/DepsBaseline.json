@@ -65,6 +65,20 @@
       "expires": "2027-04-30"
     },
     {
+      "package": "net46",
+      "advisory": "EOL",
+      "source": "Templates/VSIX Installer/SolidDNA.Templates/SolidDNA.Templates.csproj",
+      "reason": "Legacy Windows-only .NET Framework project, not part of any live site; accepted 2026-11-07 security sweep",
+      "expires": "2027-05-07"
+    },
+    {
+      "package": "net452",
+      "advisory": "EOL",
+      "source": "Tools/CommandManager Icon Generator/AngelSix.SolidWorksApi.IconGeneator/AngelSix.SolidWorksApi.IconGeneator.csproj",
+      "reason": "Legacy Windows-only .NET Framework project, not part of any live site; accepted 2026-11-07 security sweep",
+      "expires": "2027-05-07"
+    },
+    {
       "package": "Newtonsoft.Json",
       "advisory": "GHSA-5crp-9r3c-p9vr",
       "source": "Tutorials/02-WpfAddIn/SolidDna.WpfAddIn/SolidDna.WpfAddIn.csproj",
